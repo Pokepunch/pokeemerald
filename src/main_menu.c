@@ -980,13 +980,13 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
                 gPlttBufferUnfaded[0] = RGB_BLACK;
                 gPlttBufferFaded[0] = RGB_BLACK;
                 EnterPokeStorage(0);
-                DestroyTask(taskId);
+                //DestroyTask(taskId);
                 break;
             case ACTION_CONTINUE:
                 gPlttBufferUnfaded[0] = RGB_BLACK;
                 gPlttBufferFaded[0] = RGB_BLACK;
                 EnterPokeStorage(0);
-                DestroyTask(taskId);
+                //DestroyTask(taskId);
                 break;
             case ACTION_OPTION:
                 gMain.savedCallback = CB2_ReinitMainMenu;
